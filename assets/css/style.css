@@ -50,7 +50,7 @@ nav a:hover {
     margin-right: auto;
     padding: 10px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 30px;
     color: rgb(255, 255, 255);
 }
 
@@ -59,20 +59,21 @@ nav a:hover {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: white
 }
 
-#one {
-    background: rgb(8, 164, 255);
+.list h4 {
+    font-size: 20px;
+    margin: 5px;
 }
 
-#two {
-    background: rgb(250, 0, 217);
+#one {
+    background: rgb(173, 84, 233);
 }
 
 .toolbar {
@@ -145,4 +146,8 @@ nav a:hover {
 .top img {
     height: 100px;
     margin-right: 25px;
+}
+
+#tired1 h4{
+    font-size: 17px;
 }
