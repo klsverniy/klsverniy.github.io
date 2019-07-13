@@ -73,11 +73,11 @@ nav a:hover {
 }
 
 #one {
-    background: rgb(173, 84, 233);
+    background: rgb(50, 2, 82);
 }
 
 .toolbar {
-    background: rgb(68, 0, 114);
+    background: rgb(60, 2, 99);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -115,7 +115,6 @@ nav a:hover {
     text-align: center;
     background: rgb(101, 0, 168);
     color: white;
-    width: 200px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -169,4 +168,53 @@ nav a:hover {
     height: 100px;
     border-radius: 5px;
     margin: 5px;
+}
+
+.width1 {
+    width: 200px;
+}
+
+.width2 {
+    width: 250px;
+}
+
+#width {
+    width: 850px;
+}
+
+.otzyv {
+    background: rgb(101, 0, 168);
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.otzyv img {
+    height: 90px;
+    border-radius: 900px;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.name h3 {
+    margin: 20px;
+}
+
+.problema {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#problem {
+    background: rgb(50, 2, 82);
 }
