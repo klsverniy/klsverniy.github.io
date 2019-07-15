@@ -218,3 +218,31 @@ nav a:hover {
 #problem {
     background: rgb(50, 2, 82);
 }
+
+#contact a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+#contact {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#contact img {
+    width: 25px;
+    height: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pitomnik {
+    height: 233px;
+    border-radius: 5px;
+}
+
+.list a {
+    color: white;
+}
