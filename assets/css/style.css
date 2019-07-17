@@ -25,11 +25,16 @@ nav a{
     background: rgb(101, 0, 168);
     padding: 12px;
     border-radius: 30px;
+    font-size: 15px;
 }
 
 nav a:hover {
     color: rgb(255, 255, 255);
     background: rgb(70, 0, 117);
+}
+
+.hidden {
+    display: none;
 }
 
 .title {
@@ -240,9 +245,48 @@ nav a:hover {
 
 .pitomnik {
     height: 233px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .list a {
     color: white;
+}
+
+@media (max-width: 478px){
+    nav a {
+        flex-direction: column;
+        display: flex;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .toolbar {
+        padding-right: 0px;
+    }
+
+    .toolbar a {
+        font-size: 10px;
+    }
+
+    .title {
+        padding: 15px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .media-container {
+        background: none;
+        margin: 0;
+    }
+
+    .list {
+        width: 250px;
+    }
+
+    .about {
+        width: 300px;
+    }
 }
