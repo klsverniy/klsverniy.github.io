@@ -344,3 +344,11 @@ nav a:hover {
         margin-right: auto;
     }
 }
+
+.cont-dev {
+    text-align: center;
+}
+
+.cont-dev a {
+    color: black
+}
