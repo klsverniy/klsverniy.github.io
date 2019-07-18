@@ -209,6 +209,26 @@ nav a:hover {
     border-radius: 900px;
 }
 
+.block {
+    background: rgb(101, 0, 168);
+    width: 250px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.blocks {
+    display: flex;
+    padding: 10px;
+}
+.block img {
+    height: 170px;
+    border-radius: 10px;
+}
 .name {
     display: flex;
     justify-content: flex-start;
@@ -280,7 +300,7 @@ nav a:hover {
     }
 
     .toolbar a {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .title {
@@ -326,6 +346,27 @@ nav a:hover {
     .gallery {
         width: 200px;
     }
+
+    #width {
+        width: 200px;
+    }
+
+    .otzyv {
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .list h3 a {
+        font-size: 10px;
+    }
+
+    .blocks {
+        display: block;
+    }
+
+    .block {
+        margin-top: 10px;
+    }
 }
 
 .map {
@@ -334,7 +375,7 @@ nav a:hover {
     border-radius: 10px;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1173px){
     nav a {
         flex-direction: column;
         display: flex;
@@ -343,12 +384,4 @@ nav a:hover {
         margin-left: auto;
         margin-right: auto;
     }
-}
-
-.cont-dev {
-    text-align: center;
-}
-
-.cont-dev a {
-    color: black
 }
