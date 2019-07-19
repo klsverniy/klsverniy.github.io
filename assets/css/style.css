@@ -22,24 +22,33 @@ nav a{
     transition: .5s linear;
     text-decoration: none;
     color: white;
-    background: rgb(101, 0, 168);
+    background: rgb(70, 0, 117);
     padding: 12px;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 nav a:hover {
     color: rgb(255, 255, 255);
-    background: rgb(70, 0, 117);
+    background: rgb(101, 0, 168);
 }
 
 .hidden {
     display: none;
 }
 
+.group {
+    background: rgb(50, 2, 82);
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
 .title {
     text-align: center;
-    background: rgb(101, 0, 168);
+    background: rgb(50, 2, 82);
     color: white;
     width: 700px;
     padding: 10px;
