@@ -45,6 +45,7 @@ nav a:hover {
     padding: 10px;
     margin-top: 20px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 .title {
     text-align: center;
@@ -375,6 +376,14 @@ nav a:hover {
 
     .block {
         margin-top: 10px;
+    }
+
+    .group {
+        width: 300px;
+    }
+
+    .group .title{
+        width: 200px;
     }
 }
 
