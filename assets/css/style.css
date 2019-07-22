@@ -385,6 +385,10 @@ nav a:hover {
     .group .title{
         width: 200px;
     }
+
+    .group .about {
+        width: 200px;
+    }
 }
 
 .map {
