@@ -56,6 +56,7 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     border-radius:30px;
+    font-size: 20px;
 }
 
 .about {
@@ -63,6 +64,7 @@ nav a:hover {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     padding: 10px;
     text-align: center;
     border-radius: 30px;
