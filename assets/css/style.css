@@ -56,9 +56,15 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     border-radius:30px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
+.list h5 {
+    font-size: 20px;
+}
+.phone {
+    text-align: center;
+}
 .about {
     background: rgb(101, 0, 168);
     width: 700px;
@@ -76,7 +82,6 @@ nav a:hover {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
     text-align: left;
     border-radius: 30px;
     margin-top: 20px;
