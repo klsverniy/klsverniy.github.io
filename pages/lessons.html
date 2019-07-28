@@ -61,6 +61,21 @@
             <h3 class="phone">❗Курс рассчитан на 4 занятия. </h3>
         </div>
     </div>
+    <form name="comment" action="comment.php" method="post" class="com">
+        <p>
+          <label>Имя:</label>
+          <input type="text" name="name" />
+        </p>
+        <p>
+          <label>Комментарий:</label>
+          <br />
+          <textarea name="text_comment" cols="30" rows="3"></textarea>
+        </p>
+        <p>
+          <input type="hidden" name="page_id" value="150" />
+          <input type="submit" value="Отправить" />
+        </p>
+      </form>
     <div class="group">
     <h2 class="title">ОКП - Общий Курс Послушания</h2>
     <div class="list" id="one"><h3>Курс послушания необходим хозяевам тех питомцев, которые хотят иметь хороший контакт со своей собакой, уметь управлять ею и получать удовольствие от совместных прогулок.</h3></div>
