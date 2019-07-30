@@ -41,7 +41,9 @@ nav a:hover {
     font-size: 14px;
 }
 
-
+.come {
+    padding: 10px;
+}
 
 .like {
     background: rgb(243, 243, 243);
