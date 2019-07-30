@@ -41,9 +41,8 @@ nav a:hover {
     font-size: 14px;
 }
 
-#vk_comments {
-    border-radius: 30px;
-}
+
+
 .like {
     background: rgb(243, 243, 243);
     display: flex;
