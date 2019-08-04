@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="shortcut icon" href="https://pp.userapi.com/c850216/v850216638/155207/CSZg2kqi964.jpg">
     <link rel="stylesheet" type="text/css" href="/assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="/slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick-1.8.1/slick/slick.css"/>
 </head>
 <body>
     <div class="top">
@@ -47,6 +49,11 @@
             <a href="/pages/map.html#map">Карта</a>
         </nav>
     </header>
+    <div class="slider">
+        <div><a href="/pages/handling.html"><img class="slide" src="https://psv4.userapi.com/c848436/u243323151/docs/d2/643870d52d4b/Bez_imeni-1.png?extra=dJOp4k_KdVzsvwwmw1_gF5AeE12vDWvGzy9SGiHjbNHiVqqM-_SbkxgkwAviktBmoheONAO8oiQ4HkrYVPkbRrqHFvUjGGzkLs4QyQxEcFT1dFsyb20zaMBzpb6B67NOjNYWM1TpjaUjQBjLm4MZmX3TjQ"></a></div>
+        <div>your content</div>
+        <div>your content</div>
+      </div>
     <div class="group">
         <h2 class="title" id="anchorone">Что такое клуб любителей собак и для чего он нужен?</h2>
         <h3 class="about" id="one"> 
@@ -105,6 +112,17 @@
     </div>
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/jquery.fancybox.min.js"></script>
-    <script src="/assets/js/script.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/slick-1.8.1/slick/slick.min.js"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider').slick();({
+            draggable: true
+
+    });
+    });
+      </script>
 </body>
 </html>

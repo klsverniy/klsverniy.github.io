@@ -17,6 +17,29 @@ header {
     padding: 25px;
 }
 
+.slider {
+    height: 200px;
+    background: #330066;
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.slider div {
+    height: 200px;
+}
+
+.slide {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 nav a{
     margin: 5px;
     transition: .5s linear;
