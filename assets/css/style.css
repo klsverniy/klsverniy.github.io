@@ -391,6 +391,10 @@ nav a:hover {
     .sldier {
         display: none;
     }
+
+    #next {
+        display: none;
+    }
     .slide {
         display: none;
     }
