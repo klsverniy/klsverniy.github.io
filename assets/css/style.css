@@ -394,7 +394,7 @@ nav a:hover {
     border-radius: 10px;
 }
 
-@media (max-width: 478px){
+@media (max-width: 480px){
     nav a {
         flex-direction: column;
         display: flex;
@@ -403,7 +403,7 @@ nav a:hover {
         margin-right: auto;
     }
 
-    .sldier {
+    .slider {
         display: none;
     }
 
@@ -465,7 +465,7 @@ nav a:hover {
     }
 
     .gallery {
-        width: 200px;
+        width: 50%;
     }
 
     #width {
@@ -487,6 +487,8 @@ nav a:hover {
 
     .block {
         margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .group {
@@ -516,5 +518,39 @@ nav a:hover {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .group {
+        width: 70%
+    }
+    .media-container {
+        background: none;
+        margin: 0;
+    }
+
+    .title {
+        width: 70%
+    }
+
+    .about {
+        width: 70%
+    }
+
+    .list {
+        width: 60%
+    }
+}
+
+@media (max-width:1280px) {
+    nav a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:320px) {
+    .ah h2 {
+        font-size: 12px;
     }
 }
