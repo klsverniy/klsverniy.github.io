@@ -403,6 +403,13 @@ nav a:hover {
         margin-right: auto;
     }
 
+    #club {
+        width: 60%;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+
     .slider {
         display: none;
     }
@@ -540,6 +547,10 @@ nav a:hover {
 
     .list {
         width: 60%
+    }
+
+    .slide {
+        width: 99%;
     }
 }
 
