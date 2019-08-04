@@ -2,7 +2,7 @@ var slide = document.getElementById("lopr");
 var soo = document.getElementById("sooo");
 var slider = document.getElementById("lopra")
 
-slide.addEventListener("touchstart",function hide (){
+slide.addEventListener("click",function hide (){
     soo.classList.add("hidden")
 })
 

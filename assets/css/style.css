@@ -370,6 +370,40 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.onoff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background: rgb(50, 2, 82);
+    color: white;
+    border-radius: 30px;
+    margin-top: 1%
+} 
+
+#lopr {
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    transition: .5s all;
+}
+
+#lopra {
+    color:white;
+    margin: 5px;
+    text-decoration: none;
+    transition: .5s all
+}
+
+#lopr:hover{
+    color: rgb(218, 218, 218)
+}
+
+#lopra:hover{
+    color: rgb(218, 218, 218)
+}
 .ah h2 {
     font-size: 28px;
 }
@@ -519,7 +553,9 @@ nav a:hover {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-        width: 400px;
+        width: 200px;
+        padding: 10px;
+        margin-top: 25%
     }
 }
 
