@@ -19,7 +19,7 @@ header {
 
 .slider {
     height: 200px;
-    background: #330066;
+    background: none;
     display: flex;
     color: white;
     text-align: center;
@@ -36,9 +36,18 @@ header {
 }
 
 .slide {
-    margin-left: auto;
-    margin-right: auto;
+    width: 795px;
+    border-radius: 30px;
 }
+
+a:active, a:focus { outline: none; }
+
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
 
 nav a{
     margin: 5px;
@@ -290,15 +299,17 @@ nav a:hover {
     color: white;
     display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px;
     border-radius: 10px;
+    margin: 5px;
 }
 
 .blocks {
     display: flex;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 .block img {
     height: 170px;
@@ -377,6 +388,12 @@ nav a:hover {
         margin-right: auto;
     }
 
+    .sldier {
+        display: none;
+    }
+    .slide {
+        display: none;
+    }
     .toolbar {
         padding-right: 0px;
     }
