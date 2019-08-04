@@ -118,9 +118,13 @@
     display: none;
 }
 
+.hidden {
+    display: none;
+}
+
 @media (max-width: 800px) {
     .slick-slider {
-        width: 70%;
+        width: 90%;
         margin-bottom: -25%;
     };
 }

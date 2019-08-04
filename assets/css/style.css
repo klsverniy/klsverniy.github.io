@@ -493,6 +493,34 @@ nav a:hover {
     .group .about {
         width: 200px;
     }
+    #lopr {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        margin-top: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #lopra {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        margin-top: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .onoff {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
 }
 
 .map {
@@ -538,7 +566,7 @@ nav a:hover {
     }
 }
 
-@media (max-width:1280px) {
+@media (max-width:1360px) {
     nav a {
         font-size: 16px;
     }
