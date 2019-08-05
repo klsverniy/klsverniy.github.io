@@ -532,7 +532,6 @@ nav a:hover {
         width: 200px;
     }
     #lopr {
-        display: flex;
         justify-content: center;
         text-decoration: none;
         margin-top: auto;
@@ -542,7 +541,6 @@ nav a:hover {
     }
     
     #lopra {
-        display: flex;
         justify-content: center;
         text-decoration: none;
         margin-top: auto;
