@@ -31,6 +31,9 @@ header {
     margin-top: 20px;
 }
 
+.visible {
+    display: block;
+}
 .slider div {
     height: 200px;
 }
