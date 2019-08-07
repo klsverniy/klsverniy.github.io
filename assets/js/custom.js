@@ -2,12 +2,12 @@ $(document).ready(function() {
 	
 	$("body").css("display", "none");
 
-    $("body").fadeIn(3000);
+    $("body").fadeIn(2500);
 	
 	$("a.hewo").click(function(event){
 		event.preventDefault();
 		linkLocation = this.href;
-		$("body").fadeOut(2000, redirectPage);		
+		$("body").fadeOut(1000, redirectPage);		
 	});
 	function redirectPage() {
 		window.location = linkLocation;
