@@ -7,7 +7,7 @@ $(document).ready(function() {
 	$("a.hewo").click(function(event){
 		event.preventDefault();
 		linkLocation = this.href;
-		$("body").fadeOut(1000, redirectPage);		
+		$("body").fadeOut(2500, redirectPage);		
 	});
 	function redirectPage() {
 		window.location = linkLocation;
