@@ -122,6 +122,10 @@
     display: none;
 }
 
+.slick-arrow {
+    opacity: 0;
+}
+
 @media (max-width: 800px) {
     .slick-slider {
         width: 85%;

@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 /* Arrows */
 .slick-prev,
 .slick-next
@@ -20,7 +20,6 @@
     transform: translate(0, -50%);
 
     cursor: pointer;
-
     color: black;
     border: none;
     outline: none;
