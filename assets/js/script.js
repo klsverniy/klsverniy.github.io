@@ -1,15 +1,9 @@
-var slide = document.getElementById("lopr");
-var soo = document.getElementById("sooo");
-var slider = document.getElementById("lopra")
-
-slide.addEventListener("click",function hide (){
-    soo.classList.add("hidden")
-    slide.classList.add("off")
-    slider.classList.remove("off")
-})
-
-slider.addEventListener("click",function show(){
-    soo.classList.remove("hidden")
-    slide.classList.remove("off")
-    slider.classList.add("off")
-})
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (currentScrollPos > 750) {
+      document.getElementById("up").classList.add ("opacity")
+    } else {
+      document.getElementById("up").classList.remove ("opacity")
+    }
+    prevScrollpos = currentScrollPos;
+  }
