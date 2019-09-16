@@ -88,7 +88,7 @@ nav a:hover {
 }
 .group {
     background: rgb(50, 2, 82);
-    width: 750px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -96,6 +96,24 @@ nav a:hover {
     border-radius: 20px;
     margin-bottom: 20px;
 }
+
+.post {
+    background: rgb(50, 2, 82);
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.news {
+    width: 70%;
+}
+
 .title {
     text-align: center;
     background: rgb(50, 2, 82);
@@ -263,8 +281,69 @@ nav a:hover {
     width: 250px;
 }
 
+.top2 {
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.493);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top3 {
+    background: url(https://ak8.picdn.net/shutterstock/videos/1012723298/thumb/1.jpg) 100%;
+    border-radius: 30px;
+    text-align: center;
+    padding: 25px;
+}
+
+.close {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    filter: invert(1);
+    height: 25px;
+    width: 25px;
+    margin: 25px;
+}
+
+
+.inv {
+    opacity: 0;
+    transition: .5s;
+}
+
+.inv2{
+    display: none;
+}
+
+.nm {
+    margin: 5px;
+    transition: .5s linear;
+    text-decoration: none;
+    color: white;
+    background: rgb(70, 0, 117);
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.nm:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(101, 0, 168);
+}
+
 #width {
     width: 850px;
+}
+
+.top3 h2 {
+    margin-bottom: 50px;
 }
 
 .btn {
