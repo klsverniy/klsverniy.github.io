@@ -302,6 +302,8 @@ nav a:hover {
     border-radius: 30px;
     text-align: center;
     padding: 25px;
+    margin-left:-1000px;
+    opacity: 0;
 }
 
 .close {
@@ -324,6 +326,16 @@ nav a:hover {
     display: none;
 }
 
+.inv .top3 {
+    margin-left:-1000px;
+    transition: .5s all;
+}
+
+.notinv .top3 {
+    margin-left:0px;
+    transition: .5s all;
+    opacity: 1;
+}
 .nm {
     margin: 5px;
     transition: .5s linear;
