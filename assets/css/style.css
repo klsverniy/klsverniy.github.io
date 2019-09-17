@@ -88,7 +88,7 @@ nav a:hover {
 }
 .group {
     background: rgb(50, 2, 82);
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -258,7 +258,7 @@ nav a:hover {
 }
 
 .gallery img {
-    height: 100px;
+    height: 125px;
     border-radius: 5px;
     margin: 5px;
 }
@@ -298,7 +298,7 @@ nav a:hover {
 }
 
 .top3 {
-    background: url(https://ak8.picdn.net/shutterstock/videos/1012723298/thumb/1.jpg) 100%;
+    background: url(http://provsehsobak.ru/wp-content/uploads/2016/03/black1.jpg) center;
     border-radius: 30px;
     text-align: center;
     padding: 25px;
