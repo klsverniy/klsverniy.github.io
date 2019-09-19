@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200&display=swap');
 
 html,body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
 }
 
@@ -295,6 +295,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .top3 {
@@ -304,6 +305,7 @@ nav a:hover {
     padding: 25px;
     margin-left:-1000px;
     opacity: 0;
+    width: 20%
 }
 
 .close {
@@ -500,11 +502,11 @@ nav a:hover {
     height: 30px;
     border-radius: 30px;
     padding: 10px;
-    margin-top: 20%;
+    margin-top: 16%;
     opacity: 0;
     transition: all .5s;
     background: rgb(243, 243, 243);
-    margin-left: 2%
+    margin-left: 2%;
 }
 
 .buttonu:hover {
@@ -590,6 +592,11 @@ nav a:hover {
     .list h3 {
         font-size: 15px;
     }
+
+    .top3 {
+        width: 60%
+    }
+
     .about {
         width: 300px;
     }

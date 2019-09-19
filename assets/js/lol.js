@@ -1,7 +1,8 @@
-toper.classList.add("notinv")
 
 var close= document.getElementById("close")
 var toper = document.getElementById("toper")
+
+toper.classList.add("notinv")
 
 function toperf (){
   toper.classList.add("inv2")
