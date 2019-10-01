@@ -246,7 +246,6 @@ nav a:hover {
 
 .gallery {
     background: rgb(101, 0, 168);
-    width: 700px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -502,7 +501,7 @@ nav a:hover {
     height: 30px;
     border-radius: 30px;
     padding: 10px;
-    margin-top: 16%;
+    margin-top: 17%;
     opacity: 0;
     transition: all .5s;
     background: rgb(243, 243, 243);
@@ -618,10 +617,6 @@ nav a:hover {
 
     nav a {
         text-align: center;
-    }
-
-    .gallery {
-        width: 50%;
     }
 
     #width {
