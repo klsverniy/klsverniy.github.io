@@ -155,7 +155,7 @@ nav a:hover {
     border-radius: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white
+    color: white;
 }
 
 .list h4 {
@@ -226,7 +226,7 @@ nav a:hover {
 }
 
 .top {
-    background-color: #fff;
+    background: white;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -260,8 +260,12 @@ nav a:hover {
     height: 125px;
     border-radius: 5px;
     margin: 5px;
+    transition: .5s all;
 }
 
+.gallery img:hover {
+    transform: rotate(-1deg)
+}
 .gallery a {
     text-decoration: none;
 }
@@ -573,7 +577,7 @@ nav a:hover {
 
     .title {
         padding: 15px;
-        width: 200px;
+        width: 20%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
