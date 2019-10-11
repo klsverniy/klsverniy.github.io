@@ -201,6 +201,11 @@ nav a:hover {
 
 .media-container a {
     text-decoration: none;
+    transition: .5s all;
+}
+
+.media-container a:hover {
+    transform: rotate(3deg)
 }
 
 #club{
