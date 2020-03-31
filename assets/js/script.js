@@ -10,3 +10,14 @@ window.onscroll = function() {
 
 
 
+var button = document.getElementById('jse')
+var toper = document.getElementById("toper")
+var close = document.getElementById("close")
+
+button.addEventListener("click", function click() {
+  toper.classList.add("invisible")
+})
+
+close.addEventListener("click", function click() {
+  toper.classList.add("invisible")
+})
