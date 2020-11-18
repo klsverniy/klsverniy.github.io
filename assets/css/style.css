@@ -17,6 +17,10 @@ header {
     padding: 25px;
 }
 
+.post h4 a {
+    color: white;
+}
+
 .slider {
     height: 200px;
     background: none;
