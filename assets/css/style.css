@@ -21,6 +21,11 @@ header {
     color: white;
 }
 
+.iframe {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .slider {
     height: 200px;
     background: none;
